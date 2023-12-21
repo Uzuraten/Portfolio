@@ -3,6 +3,7 @@
       top: 0;
       left: 0;
       width: 100%;
+      max-height: 15%;
       background-color: rgba(125, 225, 255, 1); /* 半透明の白色背景 */
       padding: 0;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ヘッダーに影を追加 */
@@ -28,11 +29,13 @@
     /* Apply a basic styling to the body */
     body {
       font-size: 20px;
-      padding: 0% 10% 0%;
+      padding: 0% 80px 0%;
       line-height: 1.55;
     }
 
-
+    span{
+     margin-right: 2em;
+    }
 
     .class1,.class2{
      width: 50%;
@@ -43,6 +46,10 @@
      font-size: 15px;
      width: 50%;
      height: 500px;
+     p {
+      margin-left: 7.2em;
+      margin-right: 0.5em;
+    }
     }
 
     .class1,.class3,.class5{
@@ -82,6 +89,8 @@
 
     h5 {
       margin-bottom: -9px; /* 下の余白をなくす */
+      margin-left: 7em;
+      margin-right: 0.5em;
       font-size: 16px;
     }
 
@@ -93,6 +102,11 @@
     /* Apply a background image to the page */
     body {
       background-size: cover;
+    }
+    
+    p {
+      margin-left: 2.5em;
+      margin-right: 1em;
     }
 
     /* Style the images and videos */
@@ -114,23 +128,31 @@
 
 
     /* 長方形のコンテナ */
+
     .rectangle-container5 {
       display: flex; /* Flexboxを使用して横に並べる */
       flex-direction: column; /* 縦に並べる */
+      align-items: center;
+      justify-content: center;
+    }
+    .rectangle-container,.rectangle-container1,.rectangle-container2,.rectangle-container3,.rectangle-container4, {
+      text-align: center;
     }
 
     /* 長方形のスタイル */
     .rectangle {
-      width: 99%; /* 適切な幅を指定 */
+      width: 1000px; /* 適切な幅を指定 */
       height: 200px; /* 適切な高さを指定 */
+      margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
     }
 
     /* 長方形のスタイル */
     .rectangle1 {
-      width: 99%; /* 適切な幅を指定 */
+      width: 1000px; /* 適切な幅を指定 */
       height: 775px; /* 適切な高さを指定 */
+      margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
       img {
@@ -140,8 +162,9 @@
 
     /* 長方形のスタイル */
     .rectangle2 {
-      width: 99%; /* 適切な幅を指定 */
+      width: 1000px; /* 適切な幅を指定 */
       height: 1050px; /* 適切な高さを指定 */
+      margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
       img {
@@ -151,8 +174,9 @@
 
     /* 長方形のスタイル */
     .rectangle3 {
-      width: 99%; /* 適切な幅を指定 */
+      width: 1000px; /* 適切な幅を指定 */
       height: 775px; /* 適切な高さを指定 */
+      margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
       img {
@@ -162,16 +186,18 @@
 
     /* 長方形のスタイル */
     .rectangle4 {
-      width: 99%; /* 適切な幅を指定 */
+      width: 1000px; /* 適切な幅を指定 */
       height: 300px; /* 適切な高さを指定 */
+      margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
     }
 
     /* 長方形のスタイル */
     .rectangle5 {
-      width: 99%; /* 適切な幅を指定 */
+      width: 495px; /* 適切な幅を指定 */
       height: 140px; /* 適切な高さを指定 */
+      margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       margin-bottom: 10px; /* 長方形間の余白 */
       border-radius: 20px; /* 丸角にする半径のサイズ */
