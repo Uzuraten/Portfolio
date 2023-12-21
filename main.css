@@ -80,6 +80,7 @@
     h3 {
       font-size: 28px; /* Adjust the font size for h3 */
       margin-bottom: 8px; /* 下の余白をなくす */
+      margin-left: 1em;
     }
 
     h4 {
@@ -151,7 +152,7 @@
     /* 長方形のスタイル */
     .rectangle1 {
       width: 1000px; /* 適切な幅を指定 */
-      height: 775px; /* 適切な高さを指定 */
+      height: 750px; /* 適切な高さを指定 */
       margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
