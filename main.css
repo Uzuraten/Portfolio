@@ -29,7 +29,7 @@
     /* Apply a basic styling to the body */
     body {
       font-size: 20px;
-      max-width: 1200px;
+      max-width: 1500px;
       padding: 0px 15px;
       line-height: 1.55;
       word-wrap: break-word;
@@ -170,7 +170,7 @@
     /* 長方形のスタイル */
     .rectangle2 {
       width: 1000px; /* 適切な幅を指定 */
-      height: 1050px; /* 適切な高さを指定 */
+      height: 1075px; /* 適切な高さを指定 */
       margin: auto;
       background-color: rgba(255, 255, 255); /* 長方形の背景色 */
       border-radius: 15px; /* 丸角にする半径のサイズ */
